@@ -1,0 +1,128 @@
+*{
+  margin:0;
+}
+body{
+  color: red;
+  background-image: url('blur.jpg');
+  background-size: cover;
+}
+ul{
+
+	color: white;	
+}
+h2{
+  line-height: 3em;
+}
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  margin-top: 0px;
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 50px;	
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: green;
+}
+
+  marquee{
+    background-image: url("‪../825880.jpg");
+    color: 	green ;
+  }
+  footer{
+
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
+  .dropdown .dropbtn {
+   
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #222;
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 172px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:  #2A5D3F;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.lbar{
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  list-style-type: none;
+  width: 100%;
+  color: white;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  h5,h3{
+    text-align: center;
+  }
+  img:hover{
+  transform: scale(1.5);
+
+}
+table{
+      margin-left:auto; 
+    margin-right:auto;
+}

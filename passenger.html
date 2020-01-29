@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passenger</title>
+
+	<link rel="stylesheet" type="text/css" href="insertform.css">
+</head>
+<body>
+		<ul>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<li><a href="index.html">
+				Home
+			</a>
+		</li>&nbsp &nbsp &nbsp
+		<li>
+				<div class="navbar">
+				  <div class="dropdown">
+				    <a class="dropbtn">Get Ticket
+				    </a>
+				    <div class="dropdown-content">
+				      <a href="passenger.html">Passenger</a>
+				      <a href="	ticket.html">Ticket</a>
+				    </div>
+				  </div>
+				</div>
+		</li>&nbsp &nbsp &nbsp
+		<li>
+			<a href="dbdata.html">
+		    	Show data 
+		   	</a>
+		</li>&nbsp &nbsp &nbsp	
+		<li>
+			<a href="aboutus.html">
+				About Us
+			</a>
+		</li>&nbsp &nbsp &nbsp
+		<li>
+			<a href="members.html">
+		    	Contact Us
+		   	</a>
+		</li>
+		
+	</ul>
+	
+	<form action="insertdb.php" method="post">
+	<div class="fd">
+	<h2>Passenger</h2>	
+        <label>NAME</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+		<input type="text" id="Name"
+		name="Name" placeholder="Name"><br>
+	    
+		<label>EMAIL</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<input type="Email" name="Email" placeholder="Email" ><br>
+		<label>PASSPORT ID</label> &nbsp
+		<input type="numbers" name="Passportid"   placeholder="Passport ID" ><br>
+		<label>PHONE</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<input type="numbers"name=" Phonenumber" placeholder="Phone number" ><br>
+		<label>CNIC</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<input type="numbers" name="CNIC" placeholder="CNIC" allign="centre"><br>
+
+		<label>GENDER</label>&nbsp &nbsp &nbsp &nbsp 
+		<input type="radio" name="Gander" value="Male">
+		<label>Male</label>&nbsp  &nbsp &nbsp  &nbsp 
+		<input type="radio" name="Gander" value="Female">
+		<label>Female</label>&nbsp  &nbsp  &nbsp 
+		<input type="radio" name="Gander" value="Other"> 
+		<label>Other</label><br><br>
+
+		<input type="submit" value="Enter">
+		<input type="reset">
+		</div>
+	</form>   
+
+</body>
+</html>

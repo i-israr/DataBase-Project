@@ -1,0 +1,16 @@
+body{
+
+  background-color:black;
+
+  }
+  ul{
+
+  	text-align: center;
+    padding: 170px 100px;
+    font-weight: bold;
+	display: block;
+  }
+  li a:hover {
+  background-color: white;
+}
+

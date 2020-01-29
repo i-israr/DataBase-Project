@@ -1,0 +1,49 @@
+body{
+
+  background-image:url(C:\Users\Israr\Desktop\databse project\air.jpg);
+  background-size: cover;
+  }
+ul{
+
+	color: white;	
+}
+
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 50px;	
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+  marquee{
+    color: 	green ;
+  }
+  footer{
+
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
